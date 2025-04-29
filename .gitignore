@@ -1,1 +1,7 @@
+# Ignore Electron build output
+dist/
 *.exe
+
+# Ignore node_modules entirely
+node_modules/
+
