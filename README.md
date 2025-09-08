@@ -3,6 +3,8 @@ This is a practice repository to install electron and test how it works with wha
 
 
 # For Updates
+npm i - 
+
 npm run build - Rebuild
 
 npm run package - Update my local .exe option
