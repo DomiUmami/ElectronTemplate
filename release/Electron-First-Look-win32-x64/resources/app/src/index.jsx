@@ -1,15 +1,18 @@
 import React, { useState } from 'react';
 import { createRoot } from 'react-dom/client';
+import './Layout.css';
+
 
 const App = () => {
-  const [count, setCount] = useState(0);
+  
 
   return (
-    <div style={{ fontFamily: 'sans-serif', padding: '2rem' }}>
-      <h1>Hello React + Electron 🎉</h1>
-      <button onClick={() => setCount(count + 1)}>
-        Clicked {count} times
-      </button>
+    <div className="grid-container">
+     <header className="header">header</header>
+     <aside className="sidebar">left side</aside>
+     <main className="main">main</main>
+     <aside className="rightside">right side</aside>
+     <footer className="footer">footer</footer>
     </div>
   );
 };
